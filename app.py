@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 st.set_page_config(
     page_title="My Portfolio Tracker",   # This is the app name shown in the browser tab

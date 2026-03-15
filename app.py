@@ -62,9 +62,6 @@ def load_data(path):
 
 df = load_data(DATA_PATH)
 
-st.write(f"Rows loaded: {len(df):,} | Columns: {len(df.columns)}")
-st.dataframe(df.head(20), width="stretch")
-
 # Sets the page configuration
 # You can set the page title and layout here
 st.set_page_config(page_title="HDB Resale Dashboard", layout="wide")
